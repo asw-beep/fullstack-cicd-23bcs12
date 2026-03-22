@@ -11,7 +11,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/as-beep/fullstack-cicd-23bcs12.git'
+                git 'https://github.com/asw-beep/fullstack-cicd-23bcs12.git'
             }
         }
 
