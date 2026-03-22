@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-grid"></div>
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+ 
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <div class="avatar">
+                    <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="32" cy="24" r="12" fill="currentColor" opacity="0.85"/>
+                        <path d="M8 56c0-13.255 10.745-24 24-24s24 10.745 24 24" fill="currentColor" opacity="0.85"/>
+                    </svg>
+                </div>
+                <div class="badge">STUDENT ID</div>
+            </div>
+ 
+            <h1 class="title">Student Details</h1>
+            <div class="divider"></div>
+ 
+            <div class="fields">
+                <div class="field" style="--delay: 0.1s">
+                    <span class="field-label">Full Name</span>
+                    <span class="field-value" id="name">—</span>
+                </div>
+                <div class="field" style="--delay: 0.2s">
+                    <span class="field-label">Roll No.</span>
+                    <span class="field-value" id="roll">—</span>
+                </div>
+                <div class="field" style="--delay: 0.3s">
+                    <span class="field-label">Register No.</span>
+                    <span class="field-value" id="register">—</span>
+                </div>
+            </div>
+ 
+            <div class="card-footer">
+                <div class="dot"></div>
+                <span>Active</span>
+                <div class="dot"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+ 
+
